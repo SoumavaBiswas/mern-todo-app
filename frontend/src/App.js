@@ -3,7 +3,7 @@ import './style.css';
 
 
 function App() {
-  const apiBaseURL = process.env.API_BASE_URL
+  const apiBaseURL = process.env.REACT_APP_API_BASE_URL
   console.log(`Backend API: ${apiBaseURL}`)
 
   const [tasks, setTasks] = useState([]);
