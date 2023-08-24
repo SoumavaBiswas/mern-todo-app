@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './style.css';
 
 const apiBaseURL = process.env.API_BASE_URL
+console.log(`Backend API: ${apiBaseURL}`)
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -68,3 +69,4 @@ function App() {
 }
 
 export default App;
+
