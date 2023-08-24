@@ -5,7 +5,7 @@ This is a simple React-based to-do list application that communicates with a bac
 ## How to Use
 
 1. Clone this repository: `git clone https://github.com/SoumavaBiswas/mern-todo-app.git`
-2. Navigate to the project directory: `cd react-todo-app`
+2. Navigate to the project directory: `cd mern-todo-app`
 3. Start the system using Docker Compose: docker-compose up --build -d
 4. Access the application: `http://localhost:3000/`
 
