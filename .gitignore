@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Backend
+backend/node_modules/
+backend/.env
+
+# Frontend
+frontend/build/
+frontend/node_modules/
+
+# IDE-specific
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yml.example
+docker-compose.prod.yml
