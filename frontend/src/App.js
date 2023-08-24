@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
 
-const apiBaseURL = process.env.REACT_APP_API_BASE_URL
+const apiBaseURL = 'https://mern-todo-app-backend-nwn9.onrender.com'
 console.log(`Backend API: ${apiBaseURL}`)
 
 function App() {
