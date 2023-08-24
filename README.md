@@ -8,7 +8,7 @@ This is a simple React-based to-do list application that communicates with a bac
 2. Navigate to the project directory: `cd mern-todo-app`
 3. Add .env file under backend to provide MONGODB_URI string.
 4. Update backend api in frontend code. Will modify later based on environment.
-5. Start the system using Docker Compose: docker-compose up --build -d
+5. Start the system using Docker Compose: `docker-compose up --build -d`
 6. Access the application: `http://localhost:3000/`
 
 ## Deployment
