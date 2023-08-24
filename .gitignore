@@ -10,6 +10,7 @@ backend/.env
 # Frontend
 frontend/build/
 frontend/node_modules/
+frontend/.env
 
 # IDE-specific
 .vscode/

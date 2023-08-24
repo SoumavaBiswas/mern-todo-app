@@ -16,6 +16,10 @@ services:
       dockerfile: Dockerfile
     ports:
       - '3000:3000'
+    env_file:
+      - ./frontend/.env
+    depends_on:
+      - backend
   mongo:
     image: mongo:latest
     ports:
